@@ -14,5 +14,19 @@ namespace CelaCisla
             int podil = x / y;
             return podil;
         }
+        public static int Soucin(int x,int y)
+        {
+            return x * y;
+        }
+        public static int Rozdil(int x,int y)
+        {
+            return (x - y);
+        }
+        public static bool JeLiche(int x)
+        {
+            bool jeliche = false;
+            if (x % 2 != 0) jeliche = true;
+            return jeliche;
+        }
     }
 }

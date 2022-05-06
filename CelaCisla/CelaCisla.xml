@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CelaCisla</name>
+    </assembly>
+    <members>
+        <member name="M:CelaCisla.Operace.Soucet(System.Int32,System.Int32)">
+            <summary>
+            Vrátí součet čísel x a y
+            </summary>
+            <param name="x">První sčítanec</param>
+            <param name="y">Druhý sčítanec</param>
+            <returns></returns>
+        </member>
+        <member name="M:CelaCisla.Operace.CelociselnyPodil(System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            Vrátí celočíselný podíl čísel x a y. V parametru zbytek je zbytek po celočíselném dělení
+            </summary>
+            <param name="x">dělenec</param>
+            <param name="y">dělitel</param>
+            <param name="zbytek">Zbytek po dělení</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

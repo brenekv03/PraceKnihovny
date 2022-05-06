@@ -4,10 +4,23 @@ namespace CelaCisla
 {
     public class Operace
     {
+        /// <summary>
+        /// Vrátí součet čísel x a y
+        /// </summary>
+        /// <param name="x">První sčítanec</param>
+        /// <param name="y">Druhý sčítanec</param>
+        /// <returns></returns>
         public static int Soucet(int x,int y)
         {
             return x + y;
         }
+        /// <summary>
+        /// Vrátí celočíselný podíl čísel x a y. V parametru zbytek je zbytek po celočíselném dělení
+        /// </summary>
+        /// <param name="x">dělenec</param>
+        /// <param name="y">dělitel</param>
+        /// <param name="zbytek">Zbytek po dělení</param>
+        /// <returns></returns>
         public static int CelociselnyPodil(int x, int y,out int zbytek)
         {
             zbytek = x % y;
